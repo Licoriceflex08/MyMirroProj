@@ -14,7 +14,7 @@ cd fashion-recommendation-platform
 
 ---
 
-### ** Step 2: Create & Activate Virtual Environment**
+### **Step 2: Create & Activate Virtual Environment**
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
@@ -22,7 +22,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ---
 
-### ** Step 3: Install Dependencies**
+### **Step 3: Install Dependencies**
 ```
 pip install -r requirements.txt
 ```
@@ -33,7 +33,7 @@ pip install django djangorestframework djangorestframework-simplejwt psycopg2-bi
 
 ---
 
-### ** Step 4: Configure Database Settings**
+### **Step 4: Configure Database Settings**
 Modify **`settings.py`** to match your PostgreSQL configuration:
 ```
 DATABASES = {
@@ -50,14 +50,14 @@ DATABASES = {
 
 ---
 
-### ** Step 5: Apply Migrations**
+### **Step 5: Apply Migrations**
 ```
 python manage.py migrate
 ```
 
 ---
 
-### ** Step 6: Create Superuser (for Admin Access)**
+### **Step 6: Create Superuser (for Admin Access)**
 ```
 python manage.py createsuperuser
 ```
@@ -65,7 +65,7 @@ Enter email, username, and password when prompted.
 
 ---
 
-### ** Step 7: Run the Server**
+### **Step 7: Run the Server**
 ```
 python manage.py runserver
 ```
@@ -73,7 +73,7 @@ Server will be available at: **http://127.0.0.1:8000/**
 
 ---
 
-### ** Step 8: API Testing (Postman/cURL)**
+### **Step 8: API Testing (Postman/cURL)**
 - **Fetch products**  
   ```
   curl -X GET http://127.0.0.1:8000/api/products/
