@@ -1,5 +1,13 @@
 # MyMirroProj
 
+The following is a Minimal Viable Product (MVP) implementation of the backend for MyMirro, fashion recommendation platform using Django, Django REST Framework (DRF), and PostgreSQL. The implementation will include:
+
+- Basic API endpoints (User Authentication, Products, Recommendations)
+- Database models (Users, Products, UserActivity for tracking interactions)
+- JWT Authentication
+- API testing setup (via Postman or cURL)
+- Setup instructions for local development
+
 ### **Setting Up the Backend (Django + PostgreSQL)**  
 
 Follow these steps to set up and run the backend for **My Mirro**:
