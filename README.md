@@ -9,7 +9,7 @@ Follow these steps to set up and run the backend for **My Mirro**:
 ### **Step 1: Clone the Project & Navigate**
 ```
 git clone <your-repo-url>
-cd fashion-recommendation-platform
+cd myMirro
 ```
 
 ---
